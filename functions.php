@@ -12,7 +12,7 @@ function main_nav_bar(){
       
       <h2>More sites</h2>
       <a href="www_nasa/">NASA Daily Digest</a><br/><br/>
-      <a href="explore/">Conformity Aptitude Test</a><br/><br/>
+      <a href="explore_site/">Conformity Aptitude Test</a><br/><br/>
       <hr>
 
       <h2>Class Examples</h2>
