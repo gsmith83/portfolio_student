@@ -2,12 +2,12 @@
  Last Modified: 02/08/2015
  Style Sheet for main page
 */
-body{
+
+body {
     background-color: #101214;
 }
 
-div.main
-{
+div.main {
     background-color: #1C1D21;
     margin: 0 20px 0 20px;
     padding: 15px;
@@ -18,35 +18,34 @@ div.main
     font-size: 18px;
 }
 
-div.left_nav_bar
-{
+div.left_nav_bar {
     float: left;
-    width: 200px;
+    width: 250px;
     padding: 10px;
     display: inline-block;
+    font-size: 14px;
 }
 
-div.content
-{
+div.content {
     margin-left: 280px;
     max-width: 70%;
 }
 
-a
-{
+a {
     font-size: 125%;
     text-decoration: none;
     color: #385897;
 }
-a:hover{
+
+a:hover {
     font-style: italic;
 }
-a:visited{
+
+a:visited {
     color: #315190;
 }
 
-img.me_pic
-{
+img.me_pic {
     float: right;
     margin-right: 20px;
     border: 2px solid black;
@@ -54,8 +53,7 @@ img.me_pic
     max-height: 300px;
 }
 
-h1
-{
+h1 {
     text-align: left;
     font-size: 64px;
     margin-top: 0px;
@@ -63,14 +61,17 @@ h1
 }
 
 // Table style
-th
-{
+th {
     font-size: 110%;
     font-weight: bold;
 }
-table, th, td{
+
+table,
+th,
+td {
     border: 1px #5D616E solid;
 }
-table{
+
+table {
     width: 100%;
 }
