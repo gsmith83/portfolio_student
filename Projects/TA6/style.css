@@ -1,0 +1,216 @@
+/*
+Author: Gregory Smith  
+Date: 03/04/2015
+CS4540 - TA6
+Style sheet for the TA Application website
+*/
+
+/*** Main page elements ***/
+body
+{
+    background-color: rgb(51,51,51);
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+#main
+{
+    background-color: black;
+    padding: 20px 0px 10px 0px;
+}
+
+#content
+{
+    display: block;
+    background-color: white;
+    min-width: 400px;
+    max-width: 80%;
+    padding: 5px 25px 5px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 400px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+input:required:invalid, textarea:required:invalid{
+    background-image: url("images/x.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+input:required{
+    background-image: url("images/check.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#nav_bar
+{
+    background-color: #990000;
+    font-family: Myriad Pro Light,Helvetica Nueue,Helvetica,Verdana,sans-serif;
+    color: white;
+    min-width: 600px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 0px 25px 0px 25px;
+    min-height: 40px;
+}
+
+.nav_btn
+{
+    font-size: 24px;
+    float: left;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    background-color: rgb(51,51,51);
+    padding: 5px 10px 3px 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#logout_btn
+{
+    float: right;
+}
+
+#header
+{
+    background-color: #990000;
+    font-family: Myriad Pro Light,Helvetica Nueue,Helvetica,Verdana,sans-serif;
+    color: white;
+    min-width: 600px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#footer{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    padding: 10px 0px 0px 0px;
+}
+
+div#loginError{
+    color: red;   
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+a, a:hover, a:active, a:visited
+{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a.nav{
+    color: white;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+input
+{
+    margin-right: 30px;
+}
+
+table.app{
+    border: black 2px solid;
+    text-align: left;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th.app{
+    font-weight: bold;
+    border: black 2px solid;
+}
+tr.app{
+    border: black 1px solid;
+}
+
+td.app{
+    padding: 5px;   
+}
+h3.app{
+    text-align: center;
+}
+
+td.field{
+    font-weight: bold;
+}
+
+input.radio{
+    margin-right: 0;
+}
+
+.submitBtn{
+    text-align: center;
+}
+
+
+.column{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.app_link
+{
+    font-size: 26px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 40px; 
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+}
+.question
+{
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: gray solid 2px;
+}
+.questionlabel
+{
+    margin-bottom: 5px;
+    float: left;
+}
+
+.radiobtn{
+    float: left;
+}
+
+div.options{
+    padding-left: 10px;
+    background-color: #EDEDED; 
+    margin-bottom: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,162 @@
+<!--
+Author: Gregory Smith
+Date: 01/28/2015
+CS 4540 - TA1
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel='stylesheet' href='style.css'>
+  <title>TA Application</title>
+</head>
+<body>
+  <h1>TA Application</h1>
+  <div class="main">
+    <form action="ta_application_review.php" method="post">
+      
+      <div class="question">
+        <div class="questionlabel">Which Semester/Year are you applying to? &nbsp</div>
+        <select name="semester">
+          <option selected="selected">Choose Semester</option>
+          <option value="Fall 2015">Fall - 2015</option>
+          <option value="Summer 2015">Summer - 2015</option>
+          <option value="Spring 2016">Spring - 2016</option>
+        </select>
+      </div>
+      
+      <div class="question">
+        <div class="questionlabel">First Name: &nbsp</div>
+        <input type="text" name="firstName">
+      </div>
+      <div class="question">
+        <div class="questionlabel">Last Name: &nbsp</div>
+        <input type="text" name="lastName">
+      </div>
+        
+      <div class="question">
+        <div class="questionlabel">uID: &nbsp</div>
+        <input type="text" name="uid"><br/>
+      </div>
+      
+      <div class="question">
+        <div class="questionlabel">Phone Number (Day): &nbsp</div>
+        <input type="text" name="phoneNumber">
+      </div>
+      <div class="question">
+        <div class="questionlabel">Phone Number (Evening): &nbsp</div>
+        <input type="text" name="phoneNumberEvening">
+      </div>
+      
+      
+      <div class="question">
+        <div class="questionlabel">Email: &nbsp</div>
+        <input type="text" name="email">
+      </div>
+      
+      
+      <div class="question">
+        <div class="questionlabel">Address: &nbsp</div>
+        <textarea name="address" rows="5" cols="50"></textarea>
+      </div>
+      
+      <div class="question">
+        
+        <div class="questionlabel">Are you pursuing a Computer Science degree?</div>
+        
+          <input class="radio" type="radio" name="degreebtn" id="yb001">
+          <label for="yb001">Yes</label> 
+          
+          <input class="radio" type="radio" name="degreebtn" id="nb001">
+          <label for="nb001">No</label>
+      </div>
+      
+      
+      
+      
+      
+      <div class="question">
+        
+        <div class="questionlabel">Please check the classes you have previously taken, TA'd for, and would like to apply to: </div><br/><br/>
+        
+        <div class='classes'>
+          
+          <div class='column'>Taken &nbsp TA'd &nbsp Want to TA</div>
+          
+          <input id='box001' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box001'>CS 1410 - Intro to Programming</label><br/>
+          
+          <input id='box002' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box002'>CS 2100 - Discrete Structures</label><br/>
+          
+          <input id='box003' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box003'>CS 2420 - Data Structures & Algorithms</label><br/>
+          
+          <input id='box004' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box004'>CS 3100 - Models of Computation</label><br/>
+          
+          <input id='box005' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box005'>CS 3500 - Software Practice I</label><br/>
+          
+          <input id='box006' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box006'>CS 3505 - Software Practice II</label><br/>
+          
+          <input id='box007' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box007'>CS 3700 - Digital Design Lab</label><br/>
+          
+          <input id='box008' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box008'>CS 3810 - Computer Organization</label><br/>
+          
+          <input id='box009' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box009'>CS 4150 - Advanced Algorithms & Data Structures</label><br/>
+          
+          <input id='box010' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box010'>CS 4540 - Web Software Architecture</label><br/>
+          
+          <input id='box011' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box011'>CS 5320 - Computer Vision</label><br/>
+          
+          <input id='box012' type='checkbox' name='classes[]'>
+          <input type='checkbox' name='didTA'>
+          <input type='checkbox' name='wantToTA'>
+          <label for='box012'>CS 5958 - Network Security</label><br/>
+        </div>
+        
+      </div>
+      
+      
+      <div class="submitBtn"><input type="submit"></div>
+    </form>
+<!--    
+    <div class="submitBtn">
+      <a href="ta_application_review.php"><button type="button" onclick="">Submit</button></a>
+    </div>-->
+    
+  </div>
+  
+  
+  <div class="footer"><a href="index.html">Main Page</a></div>
+  
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\SeleniumTester.dll
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\SeleniumTester.pdb
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\WebDriver.dll
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\WebDriver.Support.dll
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\WebDriver.pdb
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\WebDriver.xml
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\WebDriver.Support.pdb
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\bin\Debug\WebDriver.Support.xml
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\obj\Debug\SeleniumTester.csprojResolveAssemblyReference.cache
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\obj\Debug\SeleniumTester.dll
+C:\School\CS_4540 Web Software\repo\trunk\html\Projects\Selenium\SeleniumTester\obj\Debug\SeleniumTester.pdb

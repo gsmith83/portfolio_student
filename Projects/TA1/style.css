@@ -1,0 +1,113 @@
+/*
+Author: Gregory Smith  
+Date: 01/28/2015
+CS4540 - TA1
+Style sheet for the TA Application website
+*/
+body
+{
+    background-color: aliceblue;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+input
+{
+    margin-right: 30px;
+}
+
+table{
+    border: black 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 500px;
+}
+th{
+    font-size: 120%;
+    border: black 2px solid;
+}
+td{
+    border: black 1px solid;
+}
+
+td.field{
+    font-weight: bold;
+}
+
+input.radio{
+    margin-right: 0;
+}
+
+.submitBtn{
+    text-align: center;
+}
+
+div.main
+{
+    padding: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    min-width: 450px;
+    font-size: 18px;
+}
+
+div.footer
+{
+    float: bottom;
+    text-align: center;
+    font-size: 150%;
+}
+
+.column{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.app_link
+{
+    font-size: 26px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 40px; 
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+}
+.question
+{
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: gray solid 2px;
+}
+.questionlabel
+{
+    margin-bottom: 5px;
+    float: left;
+}
+
+.radiobtn{
+    float: left;
+}
