@@ -9,6 +9,11 @@ function main_nav_bar(){
       <a href="schema.php" id="schema">Database Schema</a><br/><br/>
       <a href="readme.php" id="readme">README</a><br/><br/>
       <hr>
+      
+      <h2>More sites</h2>
+      <a href="www_nasa/">NASA Daily Digest</a><br/>
+      <a href="explore/">Conformity Aptitude Test</a><br/>
+      <hr>
 
       <h2>Class Examples</h2>
 
